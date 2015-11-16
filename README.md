@@ -7,7 +7,7 @@ http://pohlman.co/
 
 
 
-#About:
+##About:
 *Pad is a Bootstrap based notepad that stores your notes in your browsers local storage.
 *It should adapt to any size screen and run on any modern browser.
 *I've tested it on Chrome, Firefox, Chrome for Android, Safari, and Mobile Safari (iPhone 5s, 6, 6Plus) through XCode's iOS simulator. Viewport is set based on device width and should stay in frame nicely.
@@ -17,7 +17,7 @@ http://pohlman.co/
 
 
 
-#Usage:
+##Usage:
 *Usage is simple, load it up and click the big green plus to start creating notes!
 *From the grid view, click on any of your notes to edit them.
 *Pad makes use of contentEditable, so to edit the body or title of your note, just click into them and start typing!
@@ -25,7 +25,7 @@ http://pohlman.co/
 *To delete a note, first open it, then click the red trashcan.
 
 
-#Next:
+##Next:
 *These are just some thoughts I had while designing on the direction I would take this if I were to keep going.
 *More types of notes, possibly a type with a calendar picker.
 *Note colors. Maybe colors are used to differentiate between types easily, or just selected by preference.
@@ -37,7 +37,7 @@ http://pohlman.co/
 *Make a custom checkbox on the Todo note, instead of keeping the ugly default input style.
 *Make grid padding smaller on devices with a smaller screen.
 
-#Resources:
+##Resources:
 Resource | URL
 ------------- | -------------
 jQuery 1.x | https://jquery.com/
