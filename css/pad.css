@@ -1,0 +1,229 @@
+body {
+    background-color:#333;
+    font-family: 'Indie Flower', cursive;
+    padding-top:80px;
+}
+
+/* Navbar */
+.navbar {
+    background-color:#666;
+    border-radius:0;
+    border:none;
+}
+
+.navbar-brand {
+    font-size:32px;
+    color:#EFF2B9;
+}
+
+.navbar-brand:hover{
+    cursor:default;
+}
+
+.nav .btn {
+    border-radius:0;
+    height:50px;
+    width:50px;
+    padding-left:5px;
+    padding-top:5px;
+    font-size:32px;
+}
+
+
+/* Note Grid */
+.row.notes {
+    margin: 0 15px;
+}
+.notes .no-notes {
+    color:#666;
+    font-size:48px;
+    text-align:center;
+}
+
+.notes > div {
+    padding: 0 15px;
+}
+
+.notes .note {
+    background-color:#EFF2B9;
+    color:#333;
+    padding:12px;
+    height:300px;
+    margin-bottom:30px;
+
+}
+
+.notes .note:hover {
+    cursor:pointer;
+}
+
+.notes .note div {
+    overflow:hidden;
+}
+.notes .note .title {
+    font-size:24px;
+    border-bottom:1px solid #FFCD5A;
+    margin-bottom:4px;
+    height:36px;
+}
+
+.notes .note .summary {
+    font-size:16px;
+    height:244px;
+}
+
+
+/* Modal */
+.modal .modal-dialog {
+    width:95%;
+}
+
+.modal .modal-header .close {
+    margin-top: 8px;
+    font-size:36px;
+    color:#12B26F;
+    width:15%;
+}
+.modal .modal-header .close.delete {
+    color:#FF684D;
+}
+.modal .modal-content {
+    background-color:#EFF2B9;
+    color:#333;
+    text-align:center;
+    border-radius:0;
+}
+
+.modal .modal-content .modal-header {
+    border-bottom:1px solid #FFCD5A;
+    font-size:36px;
+}
+
+.modal .modal-content .modal-body {
+    font-size:24px;
+    min-height:300px;
+    text-align:left;
+}
+
+
+/* New Note Modal Specific */
+.modal.new .modal-header .close {
+    display:none;
+}
+.modal.new .modal-header {
+    width:95%;
+}
+
+.modal .modal-content .modal-body .btn {
+    display:block;
+    font-size:24px;
+    background-color:#FF684D;
+    margin-top:12px;
+}
+
+.modal .modal-content .modal-body .btn:hover {
+    background-color:#FF9A54;
+}
+
+
+
+/* Editing Note Modal Specific */
+.modal .modal-content .modal-header .editable,
+.modal .modal-content .modal-body .editable {
+    padding-left:4px;
+    padding-right:4px;
+}
+
+.modal .modal-content .modal-header .editable:focus,
+.modal .modal-content .modal-body .editable:focus {
+    outline:none;
+}
+
+.modal .modal-content .modal-header .editable {
+    width:70%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.modal .modal-content .modal-body .editable {
+    width:95%;
+    min-height:300px;
+}
+
+
+
+/* Todo Body */
+.modal .modal-body .todo ul {
+    list-style-type:none;
+    padding-left:0px;
+    padding-bottom:20px;
+    text-align:left;
+}
+.modal .modal-body .todo ul li {
+    height:26px;
+    margin-bottom:20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.modal .modal-body .todo ul li .controls {
+    display:inline-block;
+    width:70px;
+}
+
+.modal .modal-body .todo ul li .controls div {
+    display:inline-block;
+    color:#FF684D;
+    vertical-align:middle;
+    width:18px;
+    font-size:18px;
+}
+
+.modal .modal-body .todo ul li .controls div:hover {
+    cursor:pointer;
+}
+
+.modal .modal-body .todo ul li .controls input {
+    margin:0 8px;
+}
+
+.modal .modal-body .todo ul li .text {
+    display:inline-block;
+    border-bottom: 1px dashed #FFCD5A;
+    height:42px;
+    overflow:hidden;
+    width:100%;
+}
+.modal .modal-body .todo ul li .text:focus {
+    outline:none;
+}
+
+.modal .modal-body .todo ul li .text.strike {
+    text-decoration: line-through;
+}
+
+.modal .modal-body .todo ul li .text br {
+    display: none
+}
+
+
+.modal .modal-body .todo > div {
+    margin-top:10px;
+    text-align:center;
+    color:#12B26F;
+    background-color: #32D28F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px 1px 1px;
+}
+
+.modal .modal-body .todo > div:hover {
+    cursor:pointer;
+    background-color: #12B26F;
+    color:#00924F;
+}
